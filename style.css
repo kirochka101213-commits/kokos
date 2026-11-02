@@ -1,0 +1,240 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-image: url(image/backround.webp);
+    background-position: 70px;
+    height: 390px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    padding: 20px;
+}
+
+.div-title {
+    font-family: "Cormorant Upright", serif;
+    color: #DCCA87;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.div-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.div-center-text {
+    color: #FFFFFF;
+    width: 330px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.ikon {
+    color: #F5EFDB;
+}
+
+.ikon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.div-1-title{
+    color: #F5EFDB;
+    font-family: "Cormorant Upright", serif;
+    font-size: 24px;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+
+.div-1-text1 {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+}
+.div-1-text2 {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.div-1-text3 {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.div-2-title {
+    color: #F5EFDB;
+    font-family: "Cormorant Upright", serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.div-2-text1 {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    width: 130px;
+    text-align: center;
+}
+
+.div-2-text2 {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    width: 130px;
+    text-align: center;
+}
+
+.footer-text {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header-hero {
+    background-image: url(image/backround.webp);
+    height: 600px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 90px;
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.li-h2 {
+    color: #FFFFFF;
+    font-family: "Cormorant Upright", serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.ul-2 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.a-log {
+    border-right: white solid 1px ;
+    padding-right: 25px;
+    margin: 0;
+}
+
+.img-kitchen {
+    height: 430px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.text-rotate {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+h1 {
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+    font-family: "Cormorant Upright", serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.rotate-3 {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    transform: rotate(90deg);
+    position: relative;
+    left: 90px;
+    top: 250px;
+}
+
+.p-scroll {
+    color: #DCCA87;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    right: 190px;
+    top: 420px;
+
+}
